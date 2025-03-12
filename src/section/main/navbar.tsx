@@ -24,7 +24,7 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <ul
-          className={`lg:flex lg:space-x-6 text-black font-medium absolute lg:static top-16 left-0 w-full bg-white lg:w-auto shadow-md lg:shadow-none transition-all duration-300 ease-in-out ${
+          className={`lg:flex lg:space-x-6 text-black font-medium absolute lg:static top-10 left-0 w-full bg-white lg:w-auto shadow-md lg:shadow-none transition-all duration-300 ease-in-out ${
             menuOpen ? "block" : "hidden lg:flex"
           }`}
         >

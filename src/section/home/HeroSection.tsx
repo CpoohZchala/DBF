@@ -1,3 +1,5 @@
+import ContactPop from "@/components/dialog/contact";
+import { Dialog, DialogTrigger } from "@radix-ui/react-dialog";
 import React from "react";
 
 const HeroSection = () => {
@@ -20,13 +22,19 @@ const HeroSection = () => {
         <p className="text-3xl lg:text-3xl font-semibold text-gray-800 mt-4">
           Just for You!"
         </p>
-        
+
 
         {/* Contact button */}
         <div className="mt-8 flex justify-center lg:justify-center">
-          <button className="bg-blue-950 text-lg text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700">
-            Contact Us
-          </button>
+          <Dialog>
+            <DialogTrigger asChild>
+              <button className="inline-block bg-blue-950 text-lg text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700">
+                Contact Us
+              </button>
+            </DialogTrigger>
+            <ContactPop/>
+          </Dialog>
+
         </div>
       </div>
     </section>

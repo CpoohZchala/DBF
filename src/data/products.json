@@ -1,0 +1,41 @@
+[
+    {
+        "image":"/products/micro.png",
+        "title":"Micro Loans",
+        "Description":"Small loans designed to help individuals and small businesses grow"
+        
+
+    },
+    {
+        "image":"/products/educational.png",
+        "title":"Educational Loan",
+        "Description":"Our loans help cover tuition fees, books, and other study-related expenses."
+        
+
+    },
+    {
+        "image":"/products/gold.png",
+        "title":"Gold Loans",
+        "Description":"A secure and hassle-free way to meet urgent financial needs with minimal documentation."
+
+    },
+    {
+        "image":"/products/micro.png",
+        "title":"MSMK Loans",
+        "Description":"A secure and hassle-free way to meet urgent financial needs with minimal documentation."
+
+    },
+    {
+        "image":"/products/micro.png",
+        "title":"Micro Loans",
+        "Description":"A secure and hassle-free way to meet urgent financial needs with minimal documentation."
+
+    },
+    {
+        "image":"/products/micro.png",
+        "title":"Micro Loans",
+        "Description":"A secure and hassle-free way to meet urgent financial needs with minimal documentation."
+
+    }
+
+]

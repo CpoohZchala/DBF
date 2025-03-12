@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "leaflet/dist/leaflet.css";
+
 //import Navbar from "./section/main/navbar";
 //import Footer from "./section/main/footer";
 import Home from "./pages/Home";

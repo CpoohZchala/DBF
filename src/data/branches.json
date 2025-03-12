@@ -1,0 +1,131 @@
+[
+    {
+        "id":"1",
+        "name":"Head Office - Colombo",
+        "lat":6.8849729,
+        "lng":79.8876271
+
+    },
+    {
+        "id":"2",
+        "name":"Dambulla",
+        "lat":7.8742031,
+        "lng":80.6510917
+
+    },
+    {
+        "id":"3",
+        "name":"Mannar",
+        "lat":8.9772444,
+        "lng":79.9137786
+
+    },{
+        "id":"4",
+        "name":"Chenkalady",
+        "lat":7.7850513,
+        "lng":81.5909767
+
+    },
+    {
+        "id":"5",
+        "name":"Hungama",
+        "lat":6.1099095,
+        "lng":80.9320164
+
+    },
+    {
+        "id":"6",
+        "name":"Muthur",
+        "lat":8.4472298,
+        "lng":81.2547407
+
+    },
+    {
+        "id":"7",
+        "name":"Nelliady",
+        "lat":9.8003508,
+        "lng":80.2007995
+
+    },
+    {
+        "id":"8",
+        "name":"Mahiyanganaya",
+        "lat":7.3401663,
+        "lng":80.993126
+
+    },
+    {
+        "id":"9",
+        "name":"Polonnaruwa",
+        "lat":7.9962335,
+        "lng":81.0491723
+
+    },
+    {
+        "id":"10",
+        "name":"Thissamaharama",
+        "lat":6.2770724,
+        "lng":81.2892814
+
+    },
+    {
+        "id":"11",
+        "name":"Trincomalee",
+        "lat":8.576425,
+        "lng":81.2344952
+
+    },
+    {
+        "id":"12",
+        "name":"Vavunathivu",
+        "lat":7.7170849,
+        "lng":81.6976615
+
+    },
+    {
+        "id":"14",
+        "name":"Kinniya",
+        "lat":8.476485,
+        "lng":81.127445
+
+    },
+    {
+        "id":"15",
+        "name":"Kaluwanchikudy",
+        "lat":9.7384554,
+        "lng":80.0186032
+
+    },
+    {
+        "id":"16",
+        "name":"Chunnakam",
+        "lat":9.7384554,
+        "lng":80.0186032
+
+    },
+    {
+        "id":"17",
+        "name":"Kaluwanchikudy",
+        "lat":7.671939,
+        "lng":81.785259
+
+    },
+    {
+        "id":"18",
+        "name":"Dehiattakandiya",
+        "lat":7.5173828,
+        "lng":81.785259
+
+    },
+    {
+        "id":"19",
+        "name":"Thirukkovil",
+        "lat":7.1084205,
+        "lng":81.8373727
+
+    }
+   
+
+       
+    
+]
