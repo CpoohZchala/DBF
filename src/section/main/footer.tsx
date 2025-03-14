@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
       <div>
         <h5 className="font-bold text-lg mb-4 text-white">Quick Links</h5>
         <ul className="space-y-2 text-sm">
-          <li><Link to="/about-us" className="hover:text-white">About Us</Link></li>
+          <li><Link to="/about" className="hover:text-white">About Us</Link></li>
           <li><Link to="/branches" className="hover:text-white">Branches</Link></li>
           <li><Link to="/products#loans" className="hover:text-white">Loans</Link></li>
           <li><Link to="/products#investments" className="hover:text-white">Investments</Link></li>
@@ -50,12 +50,40 @@ const Footer: React.FC = () => {
     <hr className="border-gray-700 my-6" />
     <div className="flex flex-col md:flex-row justify-between items-center text-sm">
       <p>&copy; 2025 DBF. All Rights Reserved.</p>
-      <div className="flex space-x-6">
-        <a href="https://web.facebook.com/search/top?q=dearo%20investment%20limited" target="_blank" className="hover:text-yellow-500"><i className="fab fa-facebook-f text-xl"></i></a>
-        <a href="https://twitter.com" target="_blank" className="hover:text-yellow-500"><i className="fab fa-twitter text-xl"></i></a>
-        <a href="https://linkedin.com" target="_blank" className="hover:text-yellow-500"><i className="fab fa-linkedin-in text-xl"></i></a>
-        <a href="https://instagram.com" target="_blank" className="hover:text-yellow-500"><i className="fab fa-instagram text-xl"></i></a>
-      </div>
+      <div className="mt-8 flex space-x-6">
+                    <a
+                        href="https://web.facebook.com/search/top?q=dearo%20investment%20limited"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-12 h-12 flex items-center justify-center bg-blue-950 rounded-full text-white hover:bg-yellow-500 transition"
+                    >
+                        <i className="fab fa-facebook-f text-xl"></i>
+                    </a>
+                    <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-12 h-12 flex items-center justify-center bg-blue-950 rounded-full text-white hover:bg-yellow-500 transition"
+                    >
+                        <i className="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a
+                        href="https://linkedin.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-12 h-12 flex items-center justify-center bg-blue-950 rounded-full text-white hover:bg-yellow-500 transition"
+                    >
+                        <i className="fab fa-linkedin-in text-xl"></i>
+                    </a>
+                    <a
+                        href="https://instagram.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-12 h-12 flex items-center justify-center bg-blue-950 rounded-full text-white hover:bg-yellow-500 transition"
+                    >
+                        <i className="fab fa-instagram text-xl"></i>
+                    </a>
+                </div>
     </div>
   </div>
 </footer>

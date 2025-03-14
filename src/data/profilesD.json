@@ -1,0 +1,45 @@
+[
+    {
+        "id":1,
+        "image":"/team/p.png",
+        "name":"Mr. Prasanna Ranasinghe",
+        "possition":"Director / Chief Executive  Officer - BBA.MBA  University of Peradeniya"
+    },
+    {
+        "id":2,
+        "image":"/team/t.png",
+        "name":"Mr. Tharindu Dhananjaya",
+        "possition":"Group Executive Director / CIO - Masters in Entrepreneurship USJP - BSc. IT SLIIT"
+    },
+   
+    {
+        "id":3,
+        "image":"/team/t.png",
+        "name":"Mr. Tharindu Dhananjaya",
+        "possition":"Group Executive Director / CIO - Masters in Entrepreneurship USJP - BSc. IT SLIIT"
+    },
+    {
+        "id":4,
+        "image":"/team/u.png",
+        "name":"",
+        "possition":""
+    },
+    {
+        "id":5,
+        "image":"/team/p.png",
+        "name":"",
+        "possition":""
+    },
+    {
+        "id":6,
+        "image":"/team/p.png",
+        "name":"",
+        "possition":""
+    },
+    {
+        "id":7,
+        "image":"/team/pb.png",
+        "name":"Mr. Prabash Gunarathne",
+        "possition":"Director / Operation - Dip.CM/MF.IBSL"
+    }
+]

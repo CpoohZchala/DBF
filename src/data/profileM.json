@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "image":"/team/angelo.png",
+        "name":"Mr. Stanislaus Angelo",
+        "possition":"Assistant General Manager - Nothern and East"
+    },
+    {
+        "id":2,
+        "image":"/team/nishadi.png",
+        "name":"Mrs Nishadi Saumaya",
+        "possition":"Group Executive Director / CIO - Masters in Entrepreneurship USJP - BSc. IT SLIIT"
+    },
+   
+    {
+        "id":3,
+        "image":"/team/dilshan.png",
+        "name":"Mr. Dilshan Nuwantha",
+        "possition":"Assistant Manager - Operations"
+    },
+    {
+        "id":4,
+        "image":"/team/jasothan.png",
+        "name":"Mr. Jeyarajan Jasothan",
+        "possition":"Branch Manager - Batticaloa"
+    },
+    {
+        "id":5,
+        "image":"/team/nalin.png",
+        "name":"Mr. Nalin Kumara",
+        "possition":"Regional Manager - Uva and East"
+    },
+   
+    {
+        "id":6,
+        "image":"/team/rajitha.png",
+        "name":"Mr. Rajitha Madushanka",
+        "possition":"Regional Manager - North Central"
+    }
+    
+   
+]
