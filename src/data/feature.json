@@ -1,0 +1,20 @@
+[
+    {
+        "icon": "CalendarCheck",
+        "title": "Plan Your Future",
+        "image": "/about/about1.png",
+        "description": "Secure your financial future with DBF Investment Limited. Our expert strategies help you build wealth, manage risks, and achieve long-term stability with smart investment planning."
+    },
+    {
+        "icon": "PiggyBank",
+        "title": "Save Money",
+        "image": "/about/about2.png",
+        "description": "Grow your savings with DBF Investment Limited. We offer profitable investment opportunities, guiding you towards financial security while maximizing returns on your hard-earned money."
+    },
+    {
+        "icon": "CheckCircle",
+        "title": "Success Your Life",
+        "image": "/about/about3.png",
+        "description": "Achieve financial success with DBF Investment Limited. Our trusted investment plans empower you to create wealth, secure your future, and enjoy a prosperous and worry-free life."
+    }
+]

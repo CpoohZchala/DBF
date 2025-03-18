@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
         <footer className="relative max-w-[1600px] mx-auto w-full text-white overflow-hidden"
   style={{ backgroundColor: "#080840" }}>
   <div className="container mx-auto px-8 py-8">
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
       <div>
         <h5 className="font-bold text-lg mb-4 text-white">About DBF</h5>
         <img src="/navBar/logo.png" alt="DBF Investment Limited" className="h-11 w-auto" />
@@ -31,10 +31,18 @@ const Footer: React.FC = () => {
       <div>
         <h5 className="font-bold text-lg mb-4 text-white">Quick Links</h5>
         <ul className="space-y-2 text-sm">
-          <li><Link to="/about-us" className="hover:text-white">About Us</Link></li>
+          <li><Link to="/about" className="hover:text-white">About Us</Link></li>
           <li><Link to="/branches" className="hover:text-white">Branches</Link></li>
-          <li><Link to="/products#loans" className="hover:text-white">Loans</Link></li>
-          <li><Link to="/products#investments" className="hover:text-white">Investments</Link></li>
+         
+        </ul>
+      </div>
+      <div>
+        <h5 className="font-bold text-lg mb-4 text-white">Our Services</h5>
+        <ul className="space-y-2 text-sm">
+          <li><Link to="/gold" className="hover:text-white">Gold Loans</Link></li>
+          <li><Link to="/educational" className="hover:text-white">Educational Loans</Link></li>
+          <li><Link to="/micro" className="hover:text-white">Micro Loans</Link></li>
+          <li><Link to="/msmk" className="hover:text-white">MSMK Loans</Link></li>
         </ul>
       </div>
       <div>
@@ -50,12 +58,40 @@ const Footer: React.FC = () => {
     <hr className="border-gray-700 my-6" />
     <div className="flex flex-col md:flex-row justify-between items-center text-sm">
       <p>&copy; 2025 DBF. All Rights Reserved.</p>
-      <div className="flex space-x-6">
-        <a href="https://web.facebook.com/search/top?q=dearo%20investment%20limited" target="_blank" className="hover:text-yellow-500"><i className="fab fa-facebook-f text-xl"></i></a>
-        <a href="https://twitter.com" target="_blank" className="hover:text-yellow-500"><i className="fab fa-twitter text-xl"></i></a>
-        <a href="https://linkedin.com" target="_blank" className="hover:text-yellow-500"><i className="fab fa-linkedin-in text-xl"></i></a>
-        <a href="https://instagram.com" target="_blank" className="hover:text-yellow-500"><i className="fab fa-instagram text-xl"></i></a>
-      </div>
+      <div className="mt-8 flex space-x-6">
+                    <a
+                        href="https://web.facebook.com/search/top?q=dearo%20investment%20limited"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-12 h-12 flex items-center justify-center bg-blue-950 rounded-full text-white hover:bg-yellow-500 transition"
+                    >
+                        <i className="fab fa-facebook-f text-xl"></i>
+                    </a>
+                    <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-12 h-12 flex items-center justify-center bg-blue-950 rounded-full text-white hover:bg-yellow-500 transition"
+                    >
+                        <i className="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a
+                        href="https://linkedin.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-12 h-12 flex items-center justify-center bg-blue-950 rounded-full text-white hover:bg-yellow-500 transition"
+                    >
+                        <i className="fab fa-linkedin-in text-xl"></i>
+                    </a>
+                    <a
+                        href="https://www.instagram.com/dearoinvestmentlimited"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-12 h-12 flex items-center justify-center bg-blue-950 rounded-full text-white hover:bg-yellow-500 transition"
+                    >
+                        <i className="fab fa-instagram text-xl"></i>
+                    </a>
+                </div>
     </div>
   </div>
 </footer>

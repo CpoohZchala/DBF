@@ -1,0 +1,196 @@
+[
+    {
+        "id":"1",
+        "name":"Head Office - Colombo",
+        "address":"Dearo Investment Limited,No. 402, 4th Floor, Paramount Tower , 9th Lane , Nawala",
+        "tel":"+94 743908274",
+        "Manager":"",
+        "lat":6.8849729,
+        "lng":79.8876271   
+
+    },
+    {
+        "id":"2",
+        "name":"Dambulla",
+        "address":"Dearo Investment Limited,No 420/D,Matale Road,Dambulla.",
+        "tel":"0743940536",
+        "Manager":"",
+        "lat":7.8742031,
+        "lng":80.6510917
+
+    },
+    {
+        "id":"3",
+        "name":"Mannar",
+        "address":"Dearo Investment Limited,No 45, Hospital Road, Mannar.",
+        "tel":"0741307604",
+        "Manager":"MKA Lambert",
+        "lat":8.9772444,
+        "lng":79.9137786
+
+    },{
+        "id":"4",
+        "name":"Chenkalady",
+        "address":"",
+        "tel":"0741289633",
+        "Manager":"V Mekaran",
+        "lat":7.7850513,
+        "lng":81.5909767
+
+    },
+    {
+        "id":"5",
+        "name":"Hungama",
+        "address":"Dearo Investment Limited,No 57/A, Gurupokuna, Hungama.",
+        "tel":"0743940535",
+        "Manager":"ARNR Chandani",
+        "lat":6.1099095,
+        "lng":80.9320164
+
+    },
+    {
+        "id":"6",
+        "name":"Muthur",
+        "address":"Dearo Investment Limited,Batticaloa Road,Periyapalam,Muthur.",
+        "tel":"0761249766",
+        "Manager":"S Satheeswaran",
+        "lat":8.4472298,
+        "lng":81.2547407
+
+    },
+    {
+        "id":"7",
+        "name":"Nelliady",
+        "address":"Dearo Investment Limited, No 201, Point Pedro Road, Nelliady.",
+        "tel":"0743940579",
+        "Manager":"K Sabesh",
+        "lat":9.8003508,
+        "lng":80.2007995
+
+    },
+    {
+        "id":"8",
+        "name":"Mahiyanganaya",
+        "address":"Dearo Investment Limited,No 42/1, cerca de Central Finance, Girandurukotta Road,",
+        "tel":"0743940556",
+        "Manager":"HWKC Sandaruwan",
+        "lat":7.3401663,
+        "lng":80.993126
+
+    },
+    {
+        "id":"9",
+        "name":"Polonnaruwa",
+        "address":"Dearo Investment Limited,Frente a la gasolinera, Batticaloa Road, Polonnaruwa.",
+        "tel":"0743940551",
+        "Manager":"DMND Dissanayaka",
+        "lat":7.9962335,
+        "lng":81.0491723
+
+    },
+    {
+        "id":"10",
+        "name":"Thissamaharama",
+        "address":"Dearo Investment Limited,No 163,Kachcheriyagama, Thissamaharama.",
+        "tel":"0766107657",
+        "Manager":"JR Chandimal",
+        "lat":6.2770724,
+        "lng":81.2892814
+
+    },
+    {
+        "id":"11",
+        "name":"Trincomalee",
+        "address":"Dearo Investment Limited,Ehambharam Road,Keniyady, Trincomalee.",
+        "tel":"0776221493",
+        "Manager":"R Keertheepan",
+        "lat":8.576425,
+        "lng":81.2344952
+
+    },
+    {
+        "id":"12",
+        "name":"Vavunathivu",
+        "address":"Dearo Investment Limited,Main Street,Vavunathivu",
+        "tel":"",
+        "Manager":"Kok",
+        "lat":7.7170849,
+        "lng":81.6976615
+
+    },
+    {
+        "id":"13",
+        "name":"Kinniya",
+        "address":"Dearo Investment Limited,No 261, Main Street, Kuttikartshi, kinniya 4.",
+        "tel":"0776249935",
+        "Manager":"S Pithuyrshan",
+        "lat":8.476485,
+        "lng":81.127445
+
+    },
+    
+    {
+        "id":"14",
+        "name":"Chunnakam",
+        "address":"Dearo Investment Limited,Police Station Road,Chunnakam,Jaffna ",
+        "tel":"0743940599",
+        "Manager":"S Thanushan",
+        "lat":9.7384554,
+        "lng":80.0186032
+
+    },
+    {
+        "id":"15",
+        "name":"Kaluwanchikudy",
+        "address":"Dearo Investment Limited,Main Street,Kaluwanchikudy,Batticaloa.",
+        "tel":"0741293867",
+        "Manager":"Y Sanjeevkanth",
+        "lat":7.671939,
+        "lng":81.785259
+
+    },
+    {
+        "id":"16",
+        "name":"Dehiattakandiya",
+        "address":"No. 77/A, F/77, Ciudad Nueva, Dehiattakndiya.",
+        "tel":"MGEN Abewikrama",
+        "Manager":"0740312320",
+        "lat":7.5173828,
+        "lng":81.785259
+
+    },
+    {
+        "id":"17",
+        "name":"Batticaloa",
+        "address":"Dearo Investment Limited,New Boundary Road,Sinna Urani,Batticaloa.",
+        "tel":"0743940562",
+        "Manager":"R.Yuashan",
+        "lat":7.1084205,
+        "lng":81.8373727
+    },
+    {
+        "id":"18",
+        "name":"Vavuniya",
+        "address":"Dearo Investment Limited,1 st cross Street,Next to Softlogic Insuarance,Vavuniya",
+        "tel":"0776636326",
+        "Manager":"R.Yuashan",
+        "lat":7.1084205,
+        "lng":81.8373727
+    },{
+        "id":"19",
+        "name":"Ampara",
+        "address":"Dearo Investment Limited,E/2/B,Keerthi Studio Building,Ampara.",
+        "tel":"074 3940592",
+        "Manager":"KML Fernando",
+        "lat":7.8742031,
+        "lng":80.6510917
+
+    }
+   
+    
+   
+   
+
+       
+    
+]

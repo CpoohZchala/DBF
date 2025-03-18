@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { FaChevronDown, FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Navbar() {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <nav className="bg-white z-50 shadow-md w-full fixed top-0 left-0 border-b-4 border-white">
@@ -16,7 +19,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="lg:hidden text-black text-2xl"
+          className="mb-6 lg:hidden text-black text-2xl"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? <FaTimes /> : <FaBars />}
@@ -24,63 +27,31 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <ul
-          className={`lg:flex lg:space-x-6 text-black font-medium absolute lg:static top-16 left-0 w-full bg-white lg:w-auto shadow-md lg:shadow-none transition-all duration-300 ease-in-out ${
-            menuOpen ? "block" : "hidden lg:flex"
-          }`}
+          className={`lg:flex lg:space-x-3 text-black font-medium absolute lg:static top-10 left-0 w-full bg-white lg:w-auto shadow-md lg:shadow-none transition-all duration-300 ease-in-out ${menuOpen ? "block" : "hidden lg:flex"
+            }`}
         >
-          <li>
-            <NavLink
-              to="/"
-              className={({ isActive }) =>
-                `block px-4 py-2 rounded-md ${isActive ? "text-blue-700" : "text-black"}`
-              }
-            >
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/about"
-              className={({ isActive }) =>
-                `block px-4 py-2 rounded-md ${isActive ? "text-blue-700" : "text-black"}`
-              }
-            >
-              About Us
-            </NavLink>
-          </li>
-          <li className="relative">
-            <button
-              className="flex items-center px-4 py-2 w-full lg:w-auto"
-              onClick={() => setDropdownOpen(!dropdownOpen)}
-            >
-              Products <FaChevronDown className="ml-1 text-sm" />
-            </button>
-            {dropdownOpen && (
-              <div className="absolute lg:relative left-0 mt-2 w-full lg:w-40 bg-white shadow-md rounded-md">
-                <NavLink to="/products#loans" className="block px-4 py-2 hover:bg-gray-100">
-                  Loans
-                </NavLink>
-                <NavLink to="/products#investments" className="block px-4 py-2 hover:bg-gray-100">
-                  Investments
-                </NavLink>
-              </div>
-            )}
-          </li>
-          <li><NavLink to="/team" className={({ isActive }) =>
-            `block px-4 py-2 rounded-md ${isActive ? "text-blue-700" : "text-black"}`
-          }>Team</NavLink></li>
-          <li><NavLink to="/branches" className={({ isActive }) =>
-            `block px-4 py-2 rounded-md ${isActive ? "text-blue-700" : "text-black"}`
-          }>Branches</NavLink></li>
-          <li><NavLink to="/financial-reports" className={({ isActive }) =>
-            `block px-4 py-2 rounded-md ${isActive ? "text-blue-700" : "text-black"}`
-          }>Financial Reports</NavLink></li>
-          <li><NavLink to="/news" className={({ isActive }) =>
-            `block px-4 py-2 rounded-md ${isActive ? "text-blue-700" : "text-black"}`
-          }>News</NavLink></li>
-          <li><NavLink to="/contact" className={({ isActive }) =>
-            `block px-4 py-2 rounded-md ${isActive ? "text-blue-700" : "text-black"}`
-          }>Contact</NavLink></li>
+          {[
+            { to: "/", label: "Home" },
+            { to: "/about", label: "About Us" },
+            { to: "/products", label: "Our Services" },
+            { to: "/team", label: "Team" },
+            { to: "/branches", label: "Branches" },
+            { to: "/financial-reports", label: "Financial Reports" },
+            { to: "/news", label: "News" },
+            { to: "/contact", label: "Contact" },
+          ].map((item) => (
+            <li key={item.to}>
+              <NavLink
+                to={item.to}
+                className={({ isActive }) =>
+                  `block px-4 py-2 rounded-md ${isActive ? "text-blue-700" : "text-black"}`
+                }
+                onClick={closeMenu} // Close menu on click
+              >
+                {item.label}
+              </NavLink>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>
