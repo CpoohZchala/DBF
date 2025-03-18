@@ -45,7 +45,7 @@ const ContactPop = () => (
                         <i className="fab fa-linkedin-in text-xl"></i>
                     </a>
                     <a
-                        href="https://instagram.com"
+                        href="https://www.instagram.com/dearoinvestmentlimited"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-12 h-12 flex items-center justify-center bg-blue-950 rounded-full text-white hover:bg-yellow-500 transition"

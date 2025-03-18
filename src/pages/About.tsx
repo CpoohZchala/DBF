@@ -12,7 +12,7 @@ const iconMap = {
 const About = () => (
   <>
     {/* Header Section with Image */}
-    <section className="mt-15 w-full flex justify-center bg-gray-100 py-10">
+    <section className="mt-15 w-full flex justify-center py-10">
       <img
         src="https://www.kotak.com/content/dam/Kotak/herosliderbanner/Investment.png"
         alt="About Background"
@@ -22,10 +22,10 @@ const About = () => (
 
     {/* About Section */}
     <section className="px-6 md:px-16 lg:px-24 py-8 bg-white text-center">
-      <h1 className="text-3xl font-bold text-black">About Our Company</h1>
+    <h1 className="font-extrabold text-blue-950 text-3xl  lg:text-4xl">About Our Company</h1>
       <p className="mt-4 text-gray-700">
         At <span className="font-semibold text-blue-900">DBF Investment Limited</span>, we are committed to empowering women by providing financial solutions tailored to their needs. Our mission is to create opportunities for women to achieve financial independence through strategic investments and customized loan options.
-        <br /><br />
+       
         With a strong foundation in financial growth, we help individuals and small businesses secure stable, long-term profits. Whether you're looking for <span className="font-semibold">Micro Loans, Personal Loans,</span> or <span className="font-semibold">Small Business Loans</span>, our services are designed to support your journey toward success.
       </p>
     </section>

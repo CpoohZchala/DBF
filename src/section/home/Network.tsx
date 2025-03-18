@@ -1,6 +1,6 @@
 import React from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import "leaflet/dist/leaflet.css"; // Import Leaflet styles
+import "leaflet/dist/leaflet.css";
 import branches from "../../data/branches.json";
 
 const Network = () => (
@@ -13,7 +13,7 @@ const Network = () => (
     <div className="w-full md:w-2/3 relative z-10 rounded-lg shadow-lg overflow-hidden">
       <MapContainer 
         center={[6.9271, 79.8612]} 
-        zoom={6} 
+        zoom={7}
         className="h-[400px] md:h-[500px] w-full"
       >
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />

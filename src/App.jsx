@@ -5,11 +5,13 @@ import About from "./pages/About";
 import Team from "./pages/Team";
 import Financial from "./pages/FinancialReports"
 import Layout from "../Layouts";
-//import Branches from "./pages/Branches";
-//import FinancialReports from "./pages/FinancialReports";
-//import News from "./pages/News";
-//import Contact from "./pages/Contact";
-//import Products from "./pages/Products";
+import ContactUs from "./pages/ContactUs"
+import BranchList from "./pages/Branches"
+import Products from "./pages/Products"
+import Gold from "./pages/GoldLoan"
+import Educational from "./pages/EducationalLoan"
+import Micro from "./pages/MicroLoans"
+import News from "./pages/News"
 
 export default function App() {
   return (
@@ -20,8 +22,20 @@ export default function App() {
       <Route path="/about" element={<About />} />
       <Route path="/team" element={<Team />} />
       <Route path="/financial-reports" element={<Financial />} />
+      <Route path="/contact" element={<ContactUs />} />
+      <Route path="/branches" element={<BranchList />} />
+      <Route path="/products" element={<Products/>} />
+      <Route path="/gold" element={<Gold/>} />
+      <Route path="/educational" element={<Educational/>} />
+      <Route path="/micro" element={<Micro/>} />
+      <Route path="/news" element={<News/>} />
 
 
+      
+
+
+
+      
 
       </Routes>
     </div>

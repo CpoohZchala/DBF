@@ -125,7 +125,32 @@
 
 
 
+
+
 .swiper-pagination {
-  display: none !important;
+  position: relative !important; /* Ensure it's not hidden */
+  bottom: 10px !important;
 }
+
+/* Hide scrollbar for all browsers */
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 2px; /* Set scrollbar width */
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #14203d; /* Scrollbar handle color */
+  border-radius: 4px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #132952; /* Scrollbar handle color on hover */
+}
+
+
+
 
