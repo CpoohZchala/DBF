@@ -16,7 +16,7 @@ const HeroSection = () => {
   return (
     <section className="flex flex-col lg:flex-row items-center justify-between px-6 lg:px-16 py-18 bg-white">
       {/* Left side: Images of women */}
-      <div className=" mt-15 mb-15  w-full flex justify-center lg:justify-start rounded-xl border-4 border-blue-600">
+      <div className=" mt-10 w-full flex justify-center lg:justify-start rounded-xl border-4 border-blue-600">
         <Swiper
           modules={[ Pagination, Autoplay]}
           spaceBetween={10}
@@ -29,14 +29,14 @@ const HeroSection = () => {
         >
           {images.map((src, index) => (
             <SwiperSlide key={index}>
-              <img src={src} alt={`Slide ${index + 1}`} className="w-full h-auto mt-5" />
+              <img src={src} alt={`Slide ${index + 1}`} className="w-full h-auto mt-2 mb-2" />
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
 
       {/* Right side: Text and logo */}
-      <div className="text-center mt-8 lg:mt-0">
+      <div className="text-center mt-2 lg:mt-0">
         <h1 className="text-5xl lg:text-6xl font-extrabold text-blue-950">
           ජාතියේ හදගැස්ම
         </h1>
@@ -44,7 +44,7 @@ const HeroSection = () => {
         <img
           src="/navBar/logo.png"
           alt="DBF Investment Limited"
-          className="mt-4 h-20 w-auto mx-auto"
+          className="mt-6 h-20 w-auto mx-auto"
         />
 
         <p className="text-3xl font-semibold text-gray-800 mt-4">

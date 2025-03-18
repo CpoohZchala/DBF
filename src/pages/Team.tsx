@@ -18,10 +18,10 @@ const Team = () => {
             <section className="w-full flex flex-col items-center justify-center bg-gradient-to-r from-blue-50 to-blue-100 py-10">
                 {/* Title */}
                 <div className="w-full flex flex-col items-center bg-gradient-to-r from-white to-white py-10">
-                    <h1 className="mt-16 font-extrabold text-blue-950 text-2xl sm:text-3xl lg:text-5xl text-center mb-8">
+                    <h1 className="mt-16 font-extrabold text-blue-950 text-4xl sm:text-4xl lg:text-5xl text-center mb-8">
                         DBF Corporate Management Team
                     </h1>
-                    <h2 className="font-bold mt-4 text-black text-xl sm:text-2xl lg:text-3xl border-b-2 border-gray-600">
+                    <h2 className="font-bold mt-4 text-black text-2xl sm:text-2xl lg:text-3xl border-b-2 border-gray-600">
                         Board Of Directors
                     </h2>
                 </div>
@@ -83,7 +83,7 @@ const Team = () => {
             <section className="w-full flex flex-col items-center justify-center bg-gradient-to-r from-blue-50 to-blue-100 py-10">
                 {/* Operation Management Team Section */}
                 <div className="w-full flex flex-col items-center justify-center bg-gradient-to-r from-white to-white py-10">
-                    <h1 className="mt-10 font-extrabold text-blue-950 text-2xl sm:text-3xl lg:text-5xl text-center mb-8">
+                    <h1 className="mt-10 font-extrabold text-blue-950 text-4xl sm:text-3xl lg:text-5xl text-center mb-8">
                         DBF Operation Management Team
                     </h1>
                 </div>
