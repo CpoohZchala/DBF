@@ -13,7 +13,7 @@ const Educational = () => (
     </section>
 
     {/* Contact Us Title */}
-    <section className="w-full flex justify-center">
+    <section className="w-full flex justify-center text-center">
       <h1 className="font-extrabold text-blue-950 text-5xl lg:text-5xl">
         <span className="text-blue-600">Educational</span> Loans
       </h1>
