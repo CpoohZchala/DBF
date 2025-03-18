@@ -128,8 +128,8 @@
 
 
 .swiper-pagination {
-  position: relative !important; /* Ensure it's not hidden */
-  bottom: 10px !important;
+  position: none !important; /* Ensure it's not hidden */
+  bottom: var(--chart-5) !important;
 }
 
 /* Hide scrollbar for all browsers */
@@ -150,6 +150,14 @@
 .scrollbar-custom::-webkit-scrollbar-thumb:hover {
   background: #132952; /* Scrollbar handle color on hover */
 }
+
+.swiper-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: none !important;
+}
+
+
 
 
 

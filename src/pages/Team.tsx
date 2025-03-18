@@ -52,11 +52,11 @@ const Team = () => {
                     >
                         {profile.map((profile, index) => (
                             <SwiperSlide key={index} className="flex justify-center">
-                                <Card className="relative bg-white border border-blue-950 rounded-lg shadow-lg w-60 h-auto overflow-hidden">
+                                <Card className="relative bg-white border border-blue-950 rounded-lg shadow-lg ">
                                     <img
                                         src={profile.image}
                                         alt={profile.name}
-                                        className="w-full h- object-cover"
+                                        className="w-full h-auto object-cover"
                                     />
                                     <CardContent className="p-3 text-center">
                                         <h3 className="text-base font-semibold text-black">{profile.name}</h3>
