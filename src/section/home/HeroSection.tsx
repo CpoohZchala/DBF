@@ -16,7 +16,7 @@ const HeroSection = () => {
   return (
     <section className="flex flex-col lg:flex-row items-center justify-between px-6 lg:px-16 py-18 bg-white">
       {/* Left side: Images of women */}
-      <div className=" mt-15 w-full flex justify-center lg:justify-start rounded-xl border-4 border-blue-600">
+      <div className=" mt-15 mb-15  w-full flex justify-center lg:justify-start rounded-xl border-4 border-blue-600">
         <Swiper
           modules={[ Pagination, Autoplay]}
           spaceBetween={10}
