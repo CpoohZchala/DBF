@@ -37,7 +37,7 @@ const HeroSection = () => {
 
       {/* Right side: Text and logo */}
       <div className="text-center mt-8 lg:mt-0">
-        <h1 className="text-5xl lg:text-7xl font-extrabold text-blue-950">
+        <h1 className="text-5xl lg:text-6xl font-extrabold text-blue-950">
           ජාතියේ හදගැස්ම
         </h1>
 

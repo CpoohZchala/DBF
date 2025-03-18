@@ -13,9 +13,10 @@ export default function Navbar() {
     <nav className="bg-white z-50 shadow-md w-full fixed top-0 left-0 border-b-4 border-white">
       <div className="container mx-auto flex items-center justify-between py-4 px-6 lg:px-8">
         {/* Logo */}
-        <NavLink to="/" className="flex items-center">
-          <img src="/navBar/logo.png" alt="DBF Investment Limited" className="h-12 w-auto" />
+        <NavLink to="/" className="flex items-center lg:mr-auto">
+          <img src="/navBar/logo.png" alt="DBF Investment Limited" className="h-12 max-w-[150px] w-auto" />
         </NavLink>
+
 
         {/* Mobile Menu Button */}
         <button
