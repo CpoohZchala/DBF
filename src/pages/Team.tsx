@@ -35,7 +35,7 @@ const Team = () => {
                         loop={true}
                         grabCursor={true}
                         breakpoints={{
-                            320: { slidesPerView: 2, spaceBetween: 10 },
+                            320: { slidesPerView: 1, spaceBetween: 10 },
                             640: { slidesPerView: 3, spaceBetween: 15 },
                             1024: { slidesPerView: 3, spaceBetween: 20 },
                             1280: { slidesPerView: 4, spaceBetween: 30 },
@@ -64,7 +64,7 @@ const Team = () => {
                                         <Dialog>
                                             <DialogTrigger asChild>
                                                 <button
-                                                    className="mt-2 text-blue-600 hover:underline"
+                                                    className="mt-8 text-blue-600 hover:underline"
                                                     onClick={() => setSelectedProfile(profile)}
                                                 >
                                                     Read More
