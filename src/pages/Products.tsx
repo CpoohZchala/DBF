@@ -83,7 +83,7 @@ function Products() {
                                 </ul>
 
                                 <div className="mt-6 text-blue-700 font-semibold ">
-                                    <FaMobile className="inline-block mr-2 "/>
+                                    <FaMobile className="inline-block mr-2 " />
                                     Call For Help: +94743908274
                                 </div>
                             </div>
@@ -92,26 +92,38 @@ function Products() {
                         <>
                             <div className="flex justify-center">
                                 <img
-                                    src="/products/girl.png"
+                                    src="/products/girl2.png"
                                     alt="Businesswoman"
-                                    className="max-w-full h-[400px] border-2 border-yellow-400 rounded-lg shadow-md"
+                                    className="max-w-full h-auto border-2 border-yellow-400 rounded-lg shadow-md"
                                 />
                             </div>
                             <div className="border border-gray-300 shadow-md rounded-lg p-6">
                                 <h2 className="text-lg font-bold text-gray-800">About Our Products And Services</h2>
                                 <p className="text-blue-700 font-bold mt-2 text-xl sm:text-3xl">Our Investments Plans</p>
                                 <ul className=" text-center mt-7 space-y-5 text-lg">
-                                    <li>
-                                        <Link to="/gold" className="hover:text-blue-600 flex items-center gap-2">
-                                            <FaAngleDoubleRight className="text-blue-500" />
-                                            Diriya Diyani
-                                        </Link>
-                                    </li>
                                     
+                                    <li className="flex items-center gap-2">
+                                        <FaAngleDoubleRight className="text-blue-500" />
+                                        Diriya Diyani
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <FaAngleDoubleRight className="text-blue-500" />
+                                        Senehasa Saviya
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <FaAngleDoubleRight className="text-blue-500" />
+                                        Pragathi Saviya
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <FaAngleDoubleRight className="text-blue-500" />
+                                        Uthsaha Saviya
+                                    </li>
+
+
                                 </ul>
 
                                 <div className="mt-6 text-blue-700 font-semibold ">
-                                    <FaMobile className="inline-block mr-2 "/>
+                                    <FaMobile className="inline-block mr-2 " />
                                     Call For Help: +94743908274
                                 </div>
                             </div>
