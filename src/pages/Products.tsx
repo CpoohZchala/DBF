@@ -92,7 +92,7 @@ function Products() {
                         <>
                             <div className="flex justify-center">
                                 <img
-                                    src="/products/girl2.png"
+                                    src="/products/girl.png"
                                     alt="Businesswoman"
                                     className="max-w-full h-[400px] border-2 border-yellow-400 rounded-lg shadow-md"
                                 />
