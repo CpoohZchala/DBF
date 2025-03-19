@@ -38,7 +38,7 @@ const Network = () => (
 
     {/* Right side: Branch Names */}
     <div className="w-full md:w-1/3 bg-white border-white p-4 rounded-lg shadow-md relative z-10 max-h-[300px] md:max-h-[400px] overflow-auto">
-      <h2 className="text-xl md:text-2xl font-bold mb-2 text-gray-950">Branch Locations</h2>
+      <h2 className="text-xl md:text-2xl font-bold mb-2 text-blue-950">Branch Locations</h2>
       <ul className="text-gray-700">
         {branches.map((branch) => (
           <li key={branch.id} className="py-2 border-b">{branch.name}</li>
