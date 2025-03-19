@@ -38,18 +38,9 @@
         "lng":81.5909767
 
     },
+    
     {
-        "id":"5",
-        "name":"Hungama",
-        "address":"Dearo Investment Limited,No 57/A, Gurupokuna, Hungama.",
-        "tel":"0743940535",
-        "Manager":"ARNR Chandani",
-        "lat":6.1099095,
-        "lng":80.9320164
-
-    },
-    {
-        "id":"6",
+        "id":"7",
         "name":"Muthur",
         "address":"Dearo Investment Limited,Batticaloa Road,Periyapalam,Muthur.",
         "tel":"0761249766",
@@ -59,7 +50,7 @@
 
     },
     {
-        "id":"7",
+        "id":"8",
         "name":"Nelliady",
         "address":"Dearo Investment Limited, No 201, Point Pedro Road, Nelliady.",
         "tel":"0743940579",
@@ -69,7 +60,7 @@
 
     },
     {
-        "id":"8",
+        "id":"9",
         "name":"Mahiyanganaya",
         "address":"Dearo Investment Limited,No 42/1, cerca de Central Finance, Girandurukotta Road,",
         "tel":"0743940556",
@@ -79,7 +70,7 @@
 
     },
     {
-        "id":"9",
+        "id":"10",
         "name":"Polonnaruwa",
         "address":"Dearo Investment Limited,Frente a la gasolinera, Batticaloa Road, Polonnaruwa.",
         "tel":"0743940551",
@@ -89,7 +80,7 @@
 
     },
     {
-        "id":"10",
+        "id":"11",
         "name":"Thissamaharama",
         "address":"Dearo Investment Limited,No 163,Kachcheriyagama, Thissamaharama.",
         "tel":"0766107657",
@@ -99,7 +90,7 @@
 
     },
     {
-        "id":"11",
+        "id":"12",
         "name":"Trincomalee",
         "address":"Dearo Investment Limited,Ehambharam Road,Keniyady, Trincomalee.",
         "tel":"0776221493",
@@ -109,7 +100,7 @@
 
     },
     {
-        "id":"12",
+        "id":"13",
         "name":"Vavunathivu",
         "address":"Dearo Investment Limited,Main Street,Vavunathivu",
         "tel":"",
@@ -119,7 +110,7 @@
 
     },
     {
-        "id":"13",
+        "id":"14",
         "name":"Kinniya",
         "address":"Dearo Investment Limited,No 261, Main Street, Kuttikartshi, kinniya 4.",
         "tel":"0776249935",
@@ -130,7 +121,7 @@
     },
     
     {
-        "id":"14",
+        "id":"15",
         "name":"Chunnakam",
         "address":"Dearo Investment Limited,Police Station Road,Chunnakam,Jaffna ",
         "tel":"0743940599",
@@ -140,7 +131,7 @@
 
     },
     {
-        "id":"15",
+        "id":"16",
         "name":"Kaluwanchikudy",
         "address":"Dearo Investment Limited,Main Street,Kaluwanchikudy,Batticaloa.",
         "tel":"0741293867",
@@ -150,7 +141,7 @@
 
     },
     {
-        "id":"16",
+        "id":"17",
         "name":"Dehiattakandiya",
         "address":"No. 77/A, F/77, Ciudad Nueva, Dehiattakndiya.",
         "tel":"MGEN Abewikrama",
@@ -160,7 +151,7 @@
 
     },
     {
-        "id":"17",
+        "id":"18",
         "name":"Batticaloa",
         "address":"Dearo Investment Limited,New Boundary Road,Sinna Urani,Batticaloa.",
         "tel":"0743940562",
@@ -169,7 +160,7 @@
         "lng":81.8373727
     },
     {
-        "id":"18",
+        "id":"19",
         "name":"Vavuniya",
         "address":"Dearo Investment Limited,1 st cross Street,Next to Softlogic Insuarance,Vavuniya",
         "tel":"0776636326",
@@ -177,7 +168,7 @@
         "lat":7.1084205,
         "lng":81.8373727
     },{
-        "id":"19",
+        "id":"20",
         "name":"Ampara",
         "address":"Dearo Investment Limited,E/2/B,Keerthi Studio Building,Ampara.",
         "tel":"074 3940592",
