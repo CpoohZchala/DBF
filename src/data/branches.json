@@ -167,7 +167,8 @@
         "Manager":"R.Yuashan",
         "lat":7.1084205,
         "lng":81.8373727
-    },{
+    },
+    {
         "id":"20",
         "name":"Ampara",
         "address":"Dearo Investment Limited,E/2/B,Keerthi Studio Building,Ampara.",
@@ -176,9 +177,28 @@
         "lat":7.8742031,
         "lng":80.6510917
 
+    },
+    {
+        "id":"21",
+        "name":"Badulla",
+        "address":"",
+        "tel":"",
+        "Manager":"",
+        "lat":6.9887916,
+        "lng":81.0590172
+
+    },
+    {
+        "id":"22",
+        "name":"Welimada",
+        "address":"",
+        "tel":"",
+        "Manager":"",
+        "lat":6.8942343,
+        "lng":80.9067414
+
     }
    
-    
    
    
 

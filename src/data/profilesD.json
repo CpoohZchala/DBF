@@ -23,15 +23,9 @@
         "more":"He is a Business Professional Business Man and Director of Rural cooperative Bank Bataatha Ranna.he have more than 30 years experience contraction, Sea foods business& Agriculture Plantation."
     },
     
+    
     {
         "id":4,
-        "image":"/team/thilini.png",
-        "name":"Mrs. Thilini Kalhari",
-        "possition":"HR Director / University of Peradeniya",
-        "more":""
-    },
-    {
-        "id":5,
         "image":"/team/neranjan.png",
         "name":"Mr. Niranjan Warnasooriya",
         "possition":"Director / Chief Operation Officer",
@@ -39,7 +33,7 @@
     },
     
     {
-        "id":6,
+        "id":5,
         "image":"/team/pb.png",
         "name":"Mr. Prabash Gunarathne",
         "possition":"Director / Operation - Dip.CM/MF.IBSL",
