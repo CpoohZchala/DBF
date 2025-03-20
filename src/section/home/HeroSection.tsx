@@ -7,29 +7,30 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 
 const images = [
-  "/heroSection/s1.png",
-  "/heroSection/s2.png",
-  "/heroSection/s3.png"
+  "/heroSection/image1.jpg",
+  "/heroSection/image2.jpg",
+  "/heroSection/image3.jpg",
+  "/heroSection/image4.jpg"
 ];
 
 const HeroSection = () => {
   return (
     <section className="flex flex-col lg:flex-row items-center justify-between px-6 lg:px-16 py-18 bg-white">
       {/* Left side: Images of women */}
-      <div className=" mt-10 w-full flex justify-center lg:justify-start rounded-xl border-4 border-blue-600">
+      <div className=" mt-10 w-full flex justify-center lg:justify-start rounded-xl">
         <Swiper
           modules={[ Pagination, Autoplay]}
           spaceBetween={10}
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
-          autoplay={{ delay: 3000 }}
+          autoplay={{ delay: 2000 }}
           loop={true}
-          className="w-full md:w-[500px] border-amber-300" // Adjust width as needed
+          className="w-full md:w-[900px] border-amber-300"
         >
           {images.map((src, index) => (
             <SwiperSlide key={index}>
-              <img src={src} alt={`Slide ${index + 1}`} className="w-full h-auto mt-2 mb-2" />
+              <img src={src} alt={`Slide ${index + 1}`} className="w-full h-auto object-cover mt-2 mb-2 border-4 rounded-lg border-blue-600" />
             </SwiperSlide>
           ))}
         </Swiper>
