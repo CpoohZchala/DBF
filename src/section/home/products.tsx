@@ -15,13 +15,13 @@ const Products = () => (
     <section className="px-4 md:px-16 lg:px-24 py-12 bg-gradient-to-r from-blue-50 to-blue-100 w-full">
       <div className="flex gap-4 overflow-x-auto scrollbar-hide scrollbar-custom">
         {productsData.map((item, index) => (
-          <Card key={index} className="border-2 border-amber-500 w-80 flex-shrink-0">
+          <Card key={index} className="border-2 border-amber-500 w-70 flex-shrink-0">
             <CardContent className="flex flex-col items-center p-6">
               {item.image && (
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="rounded-lg border w-32 h-32 object-cover mb-4"
+                  className="rounded-lg border-2  border-gray-200 w-100 h-50 object-cover mb-4"
                 />
               )}
               <h3 className="text-lg font-semibold">{item.title}</h3>

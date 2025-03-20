@@ -38,7 +38,7 @@ const Team = () => {
                             320: { slidesPerView: 1, spaceBetween: 10 },
                             640: { slidesPerView: 3, spaceBetween: 15 },
                             1024: { slidesPerView: 3, spaceBetween: 20 },
-                            1280: { slidesPerView: 4, spaceBetween: 30 },
+                            1280: { slidesPerView: 3, spaceBetween: 30 },
                         }}
                         coverflowEffect={{
                             rotate: 20,
