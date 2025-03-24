@@ -88,7 +88,7 @@ const Team = () => {
                     </h1>
                 </div>
 
-                {/* Operation Management Team Grid Layout */}
+                {/* Operation Management Team Grid Layout 
                 <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
                     {profileManager.map((profile, index) => (
                         <Card key={index} className="relative bg-white rounded-lg shadow-md w-60 h-auto overflow-hidden ">
@@ -104,6 +104,7 @@ const Team = () => {
                         </Card>
                     ))}
                 </div>
+                */}
             </section>
         </>
     );
