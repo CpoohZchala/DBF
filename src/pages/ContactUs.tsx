@@ -51,8 +51,16 @@ const ContactUs = () => (
         <p className="text-gray-700 text-sm mt-2">
           <strong>Email:</strong> 
           <a href="mailto:info@dearoagricapitalventure.com" className="text-blue-600 hover:underline">
-            info@dearoagricapitalventure.com
+          dbfinvestmentlimited@gmail.com
           </a>
+          
+        </p>
+        <p className="text-gray-700 text-sm mt-2">
+          <strong>Facebook:</strong> 
+          <a href="https://www.facebook.com/dbfinvestmentlimited/" className="text-blue-600 hover:underline">
+          DBF Investment Limited 
+          </a>
+          
         </p>
 
         {/* Google Map Embed */}
