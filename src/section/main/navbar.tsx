@@ -38,7 +38,7 @@ export default function Navbar() {
             { to: "/", label: "Home" },
             { to: "/about", label: "About Us" },
             { to: "/products", label: "Our Services" },
-            { to: "/team", label: "Team" },
+            { to: "/team", label: "Our Team" },
             { to: "/branches", label: "Branches" },
             { to: "/financial-reports", label: "Financial Reports" },
             { to: "/news", label: "News" },

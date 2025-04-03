@@ -30,13 +30,6 @@ export default function App() {
       <Route path="/micro" element={<Micro/>} />
       <Route path="/news" element={<News/>} />
 
-
-      
-
-
-
-      
-
       </Routes>
     </div>
 
