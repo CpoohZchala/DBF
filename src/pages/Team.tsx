@@ -15,8 +15,8 @@ const Team = () => {
 
     return (
         <>
-            <section className="w-full flex flex-col items-center justify-center bg-gradient-to-r from-blue-50 to-blue-100 py-10">
-                {/* Title */}
+            {/* <section className="w-full flex flex-col items-center justify-center bg-gradient-to-r from-blue-50 to-blue-100 py-10">
+               
                 <div className="w-full flex flex-col items-center bg-gradient-to-r from-white to-white py-10">
                     <h1 className="mt-16 font-extrabold text-blue-950 text-4xl sm:text-4xl lg:text-5xl text-center mb-8">
                         DBF Corporate Management Team
@@ -26,7 +26,7 @@ const Team = () => {
                     </h2>
                 </div>
 
-                {/* Directors Swiper Container */}
+                
                 <div className="mt-15 w-full max-w-5xl px-4">
                     <Swiper
                         modules={[EffectCoverflow, Pagination]}
@@ -78,7 +78,7 @@ const Team = () => {
                         ))}
                     </Swiper>
                 </div>
-            </section>
+            </section> */}
 
             <section className="w-full flex flex-col items-center justify-center bg-gradient-to-r from-blue-50 to-blue-100 py-10">
                 {/* Operation Management Team Section */}
