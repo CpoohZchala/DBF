@@ -1,0 +1,50 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+        "src": "/about",
+        "dest": "/"
+    },
+    {
+        "src": "/team",
+        "dest": "/"
+    },
+    {
+        "src": "/financial-reports",
+        "dest": "/"
+    },
+    {
+        "src": "/contact",
+        "dest": "/"
+    },
+    {
+        "src": "/branches",
+        "dest": "/"
+    },
+    {
+        "src": "/products",
+        "dest": "/"
+    },
+    {
+        "src": "/gold",
+        "dest": "/"
+    },
+    {
+        "src": "/educational",
+        "dest": "/"
+    },
+    {
+        "src": "/micro",
+        "dest": "/"
+    },
+    {
+        "src": "/news",
+        "dest": "/"
+    }
+
+
+  ]
+}
