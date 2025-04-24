@@ -21,7 +21,7 @@ const BranchList: React.FC = () => {
     manager: branch.Manager || "", // Fix inconsistent key name
   }));
 
-  const letters = [...new Set(branches.map(branch => branch.name[0]))];
+  const letters = [...new Set(branches.map(branch => branch.name[0]))].sort();
 
   const filteredBranches = selectedLetter
     ? branches.filter(branch => branch.name.startsWith(selectedLetter))
