@@ -9,17 +9,20 @@ interface Branch {
   manager: string;
   lat: number;
   lng: number;
+  enabled?: boolean; // Adding enabled field to Branch interface
 }
 
 const BranchList: React.FC = () => {
   const [selectedLetter, setSelectedLetter] = useState<string | null>(null);
 
-  
-  const branches: Branch[] = branchData.map(branch => ({
-    ...branch,
-    id: Number(branch.id), 
-    manager: branch.Manager || "", 
-  }));
+  // Filter out branches with "enabled" set to false
+  const branches: Branch[] = branchData
+    .filter(branch => branch.enabled !== false)  // Filter out branches with "enabled": false
+    .map(branch => ({
+      ...branch,
+      id: Number(branch.id), 
+      manager: branch.Manager || "", 
+    }));
 
   const letters = [...new Set(branches.map(branch => branch.name[0]))].sort();
 
@@ -38,51 +41,50 @@ const BranchList: React.FC = () => {
         />
       </section>
 
-
       <div className="mt-2 justify-center p-6">
         <h2 className="text-5xl font-bold text-gray-800">
           <span className="text-blue-600">Branch</span> Network
         </h2>
 
         {/* Filters */}
-        <div className="mt-10 flex flex-wrap  gap-2">
+        <div className="mt-10 flex flex-wrap gap-2">
           <button
             className="bg-blue-700 text-white px-6 py-2 min-w-[50px] rounded transition"
             onClick={() => setSelectedLetter(null)}
           >
             All
           </button>
-        {letters.map(letter => (
-          <button
-            key={letter}
-            className={`px-4 py-2 rounded transition ${selectedLetter === letter ? "bg-black text-white" : "bg-gray-200"
-              }`}
-            onClick={() => setSelectedLetter(letter)}
-          >
-            {letter}
-          </button>
-        ))}
-      </div>
+          {letters.map(letter => (
+            <button
+              key={letter}
+              className={`px-4 py-2 rounded transition ${selectedLetter === letter ? "bg-black text-white" : "bg-gray-200"
+                }`}
+              onClick={() => setSelectedLetter(letter)}
+            >
+              {letter}
+            </button>
+          ))}
+        </div>
 
-      {/* Branch List */}
-      <div className="mt-7 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {filteredBranches.map(branch => (
-          <div key={branch.id} className="p-4 border rounded shadow-md">
-            <h3 className="text-blue-600 text-xl font-bold">{branch.name}</h3>
-            <p className="text-gray-600">{branch.address || "N/A"}</p>
-            <p>
-              <strong>Tel:</strong> {branch.tel || "N/A"}
-            </p>
-            <p>
-              <strong>Manager:</strong> {branch.manager || "N/A"}
-            </p>
-            <p className="text-blue-500 mt-2">Open weekdays 8:30 a.m. to 5:00 p.m.</p>
-            <p className="text-blue-500">Open on Saturdays 8:30 a.m. to 1:00 p.m.</p>
-          </div>
-        ))}
+        {/* Branch List */}
+        <div className="mt-7 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filteredBranches.map(branch => (
+            <div key={branch.id} className="p-4 border rounded shadow-md">
+              <h3 className="text-blue-600 text-xl font-bold">{branch.name}</h3>
+              <p className="text-gray-600">{branch.address || "N/A"}</p>
+              <p>
+                <strong>Tel:</strong> {branch.tel || "N/A"}
+              </p>
+              <p>
+                <strong>Manager:</strong> {branch.manager || "N/A"}
+              </p>
+              <p className="text-blue-500 mt-2">Open weekdays 8:30 a.m. to 5:00 p.m.</p>
+              <p className="text-blue-500">Open on Saturdays 8:30 a.m. to 1:00 p.m.</p>
+            </div>
+          ))}
+        </div>
       </div>
-    </div ></>
-
+    </>
   );
 };
 
