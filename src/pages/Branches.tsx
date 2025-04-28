@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import branchData from "../data/branches.json"; // Adjust the path if necessary
+import branchData from "../data/branches.json"; 
 
 interface Branch {
   id: number;
@@ -14,11 +14,11 @@ interface Branch {
 const BranchList: React.FC = () => {
   const [selectedLetter, setSelectedLetter] = useState<string | null>(null);
 
-  // Convert JSON id to a number (if stored as a string)
+  
   const branches: Branch[] = branchData.map(branch => ({
     ...branch,
-    id: Number(branch.id), // Ensure id is a number
-    manager: branch.Manager || "", // Fix inconsistent key name
+    id: Number(branch.id), 
+    manager: branch.Manager || "", 
   }));
 
   const letters = [...new Set(branches.map(branch => branch.name[0]))].sort();
