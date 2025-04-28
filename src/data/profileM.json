@@ -2,29 +2,29 @@
     {
         "id":1,
         "image":"/team/b.png",
-        "name":"Mr. G Dhananjaya",
+        "name":"Mr. G Dananjaya",
         "possition":"Chief Operating Officer"
     },
 
     {
         "id":2,
         "image":"/team/a.png",
-        "name":"Mr.RDDC Dinal",
+        "name":"Mr. RD Deshan Chalika",
         "possition":" Operation Manager "
     },
 
     {
         "id":3,
-        "image":"/team/c.jpg",
+        "image":"/team/d.png",
         "name":"Mr. AM Sanath Aththanayaka",
-        "possition":"Welimada - Branch Manager "
+        "possition":"Badulla - Branch Manager "
     },
     
     {
         "id":4,
-        "image":"/team/d.png",
+        "image":"/team/c.jpg",
         "name":"Mr. WA Hasindu Nimsara",
-        "possition":"Badulla - Branch Manager"
+        "possition":"Welimada - Branch Manager"
     }
     
     
