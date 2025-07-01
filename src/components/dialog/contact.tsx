@@ -12,7 +12,8 @@ const ContactPop = () => (
             <h1 className="text-black font-bold text-xl">Invest with us for stable, long-term profits.</h1>
             <div className="border-b-2 border-gray-400"></div>
             <ul className="space-y-5">
-                <li className="flex items-center gap-2"><FaMapMarkerAlt /> No. 402, 4th Floor, Paramount Tower,<br /> 9th Lane, Nawala</li>
+                <li className="flex items-center gap-2"><FaMapMarkerAlt /> DBF Investment Limited, 8th floor, Ceylinco
+                House<br />No 69, Janadhipathi Mawatha, Colombo 01.</li>
                 <li className="flex items-center gap-2"><FaPhone /> +94743908274 / <br /> +94702896932</li>
                 <li className="flex items-center gap-2"><FaEnvelope />dbfinvestmentlimited@gmail.com</li>
                 <li className="flex items-center gap-2"><FaClock /> 8:30 AM - 5:30 PM</li>
